@@ -9,11 +9,13 @@ A Heroku buildpack for youtube-dl that always downloads the latest [static build
 Add the following to your `app.json`:
 
 ```json
-"buildpacks": [
+{
+  "buildpacks": [
     {
       "url": "https://github.com/adit/heroku-buildpack-youtube-dl-latest"
     }
   ]
+}
 ```
 
 Or run the following from the heroku command line:
